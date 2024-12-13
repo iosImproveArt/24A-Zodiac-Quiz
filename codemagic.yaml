@@ -6,14 +6,14 @@ workflows:
         
         ios_signing:
             distribution_type: app_store
-            bundle_identifier: com.casuquiz
+            bundle_identifier: com.zodiacquiz
             
         groups:
             - DEFAULT
         vars:
-          BUNDLE_ID: "com.casuquiz"
-          XCODE_WORK: "Sumo sport.xcodeproj"
-          XCODE_SCHEME: "Sumo sport"
+          BUNDLE_ID: "com.zodiacquiz"
+          XCODE_WORK: "Zodiac-Quiz.xcodeproj"
+          XCODE_SCHEME: "Zodiac-Quiz"
           
       scripts:
         - name: Set up provisioning profiles settings on Xcode project
