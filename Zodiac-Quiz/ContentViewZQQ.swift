@@ -43,6 +43,8 @@ struct ContentViewZQQ: View {
                             ProfileViewZQQ()
                         case .facts:
                             FactsViewZQQ()
+                        case .questions:
+                            QuestionsView()
                         }
                         tapBar
                     }.background(2, padding: 0)
@@ -108,6 +110,15 @@ struct ContentViewZQQ: View {
                 Image("tab 3")
                     .opacity(selectedTab == .facts ? 1: 0.6)
             }
+            
+            Spacer()
+            
+            Button {
+                selectedTab = .questions
+            } label: {
+                Image("tab 4")
+                    .opacity(selectedTab == .questions ? 1: 0.6)
+            }
         }.padding(.horizontal, 40)
             .padding(.vertical)
             .padding(.bottom, 50)
@@ -130,5 +141,6 @@ enum Tabs {
     case quiz
     case profile
     case facts
+    case questions
 }
 
