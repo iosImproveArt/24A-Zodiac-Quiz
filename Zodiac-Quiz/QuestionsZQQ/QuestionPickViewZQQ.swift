@@ -7,9 +7,9 @@
 
 import SwiftUI
 
-struct QuestionPickViewZQQ: View {
+struct QuestionPickViewZodiakQuiz: View {
     
-    var wrfcwrcf = "3235245"
+     var wrfcwrcf = "3235245"
     var vwrgr = 245245
     func ghtrvwsrgvgvfjk() -> String {
         return "uhnevwrgvwrgvfrijmko"
@@ -25,6 +25,8 @@ struct QuestionPickViewZQQ: View {
     }
     var wfwrvwr = [42624624.2524524: "wcrfcwrc"]
     var jrncfm = [352: "crfc"]
+    
+    private struct FWuhjnwedjwn {}
     var body: some View {
         VStack(spacing: 40) {
             Spacer()
@@ -35,20 +37,20 @@ struct QuestionPickViewZQQ: View {
             
             VStack(spacing: isSE ? 40: 70) {
                 NavigationLink {
-                    QuestionViewZQQ(type: .oneP)
+                    QuestionViewZodiakQuiz(type: .oneP)
                 } label: {
                     Image("1p")
                 }
                 
                 
                 NavigationLink {
-                    QuestionViewZQQ(type: .withC)
+                    QuestionViewZodiakQuiz(type: .withC)
                 } label: {
                     Image("wc")
                 }
                 
                 NavigationLink {
-                    QuestionViewZQQ(type: .withF)
+                    QuestionViewZodiakQuiz(type: .withF)
                 } label: {
                     Image("wf")
                 }
@@ -60,5 +62,5 @@ struct QuestionPickViewZQQ: View {
 }
 
 #Preview {
-    ContentViewZQQ(showLoading: false, selectedTab: .quiz)
+    ContentViewZodiakQuiz(showLoading: false, selectedTab: .quiz)
 }

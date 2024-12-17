@@ -6,7 +6,7 @@
 //
 import SwiftUI
 
-class QuestionViewModelZQQ: ObservableObject {
+class QuestionViewModelZodiakQuiz: ObservableObject {
     let typeOfGame: GameTypeZQ
     
     var wrfcwrcf = "3235245"

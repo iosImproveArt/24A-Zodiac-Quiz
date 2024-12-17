@@ -7,12 +7,12 @@
 
 import SwiftUI
 
-struct ContentViewZQQ: View {
+struct ContentViewZodiakQuiz: View {
     @AppStorage("notificationsAvalible") var notificationsAvalible = true
     @State var showLoading = true
     @State var selectedTab: Tabs = .quiz
     
-    var wrfcwrcf = "3235245"
+     var wrfcwrcf = "3235245"
     var vwrgr = 245245
     func ghtrvwsrgvgvfjk() -> String {
         return "uhnevwrgvwrgvfrijmko"
@@ -29,6 +29,8 @@ struct ContentViewZQQ: View {
     var wfwrvwr = [42624624.2524524: "wcrfcwrc"]
     var jrncfm = [352: "crfc"]
     
+    private struct FWuhjnwedjwn {}
+    
     var body: some View {
         ZStack {
             NavigationView {
@@ -38,13 +40,13 @@ struct ContentViewZQQ: View {
                         
                         switch selectedTab {
                         case .quiz:
-                            QuestionPickViewZQQ()
+                            QuestionPickViewZodiakQuiz()
                         case .profile:
-                            ProfileViewZQQ()
+                            ProfileViewZodiakQuiz()
                         case .facts:
-                            FactsViewZQQ()
+                            FactsViewZodiakQuiz()
                         case .questions:
-                            QuestionsView()
+                            QuestionsViewZodiakQuiz()
                         }
                         tapBar
                     }.background(2, padding: 0)
@@ -62,7 +64,7 @@ struct ContentViewZQQ: View {
     private var topBar: some View {
         HStack {
             NavigationLink {
-                PrivacyViewZQQ(showLoading: .constant(true), fromMainView: true)
+                PrivacyViewZodiakQuiz(showLoading: .constant(true), fromMainView: true)
             } label: {
                 Text("Privacy policy")
                     .withFont(size: 16, weight: .light)
@@ -73,9 +75,9 @@ struct ContentViewZQQ: View {
             Button {
                 notificationsAvalible.toggle()
                 if notificationsAvalible {
-                    NotificationManagerZQQ.shared.createDailyNotification()
+                    NotificationManagerZodiakQuiz.shared.createDailyNotification()
                 } else {
-                    NotificationManagerZQQ.shared.removePendingNotifications()
+                    NotificationManagerZodiakQuiz.shared.removePendingNotifications()
                 }
             } label: {
                 Image("notification.label")
@@ -133,7 +135,7 @@ struct ContentViewZQQ: View {
 }
 
 #Preview {
-    ContentViewZQQ(showLoading: false)
+    ContentViewZodiakQuiz(showLoading: false)
 }
 
 

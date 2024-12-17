@@ -23,7 +23,7 @@
 		F696B1562D0C423200F8EC33 /* QuestionPickViewZQQ.swift in Sources */ = {isa = PBXBuildFile; fileRef = F696B1452D0C423200F8EC33 /* QuestionPickViewZQQ.swift */; };
 		F696B1572D0C423200F8EC33 /* ProfileViewZQQ.swift in Sources */ = {isa = PBXBuildFile; fileRef = F696B14B2D0C423200F8EC33 /* ProfileViewZQQ.swift */; };
 		F696B1582D0C423200F8EC33 /* LoadingViewZQQ.swift in Sources */ = {isa = PBXBuildFile; fileRef = F696B13E2D0C423200F8EC33 /* LoadingViewZQQ.swift */; };
-		F6A572EF2D10BD480054034B /* QuestionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A572EE2D10BD480054034B /* QuestionsView.swift */; };
+		F6A572EF2D10BD480054034B /* QuestionsViewZQQ.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A572EE2D10BD480054034B /* QuestionsViewZQQ.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,7 +45,7 @@
 		F696B1492D0C423200F8EC33 /* NotificationCenterZQQ.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCenterZQQ.swift; sourceTree = "<group>"; };
 		F696B14A2D0C423200F8EC33 /* ImagePickerZQQ.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerZQQ.swift; sourceTree = "<group>"; };
 		F696B14B2D0C423200F8EC33 /* ProfileViewZQQ.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewZQQ.swift; sourceTree = "<group>"; };
-		F6A572EE2D10BD480054034B /* QuestionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsView.swift; sourceTree = "<group>"; };
+		F6A572EE2D10BD480054034B /* QuestionsViewZQQ.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsViewZQQ.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,7 +88,7 @@
 			children = (
 				F696B13D2D0C41D600F8EC33 /* Info.plist */,
 				F696B1362D0C41BA00F8EC33 /* ContentViewZQQ.swift */,
-				F6A572EE2D10BD480054034B /* QuestionsView.swift */,
+				F6A572EE2D10BD480054034B /* QuestionsViewZQQ.swift */,
 				F696B1372D0C41BA00F8EC33 /* Zodiac_QuizAppZQQ.swift */,
 				F696B1422D0C423200F8EC33 /* LoadingZQQ */,
 				F696B1462D0C423200F8EC33 /* QuestionsZQQ */,
@@ -214,7 +214,7 @@
 				F696B1532D0C423200F8EC33 /* ExtensionsZQQ.swift in Sources */,
 				F696B1542D0C423200F8EC33 /* ImagePickerZQQ.swift in Sources */,
 				F696B1552D0C423200F8EC33 /* QuestionViewModelZQQ.swift in Sources */,
-				F6A572EF2D10BD480054034B /* QuestionsView.swift in Sources */,
+				F6A572EF2D10BD480054034B /* QuestionsViewZQQ.swift in Sources */,
 				F696B1562D0C423200F8EC33 /* QuestionPickViewZQQ.swift in Sources */,
 				F696B1572D0C423200F8EC33 /* ProfileViewZQQ.swift in Sources */,
 				F696B1582D0C423200F8EC33 /* LoadingViewZQQ.swift in Sources */,
@@ -351,7 +351,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_ASSET_PATHS = "\"Zodiac-Quiz/Preview Content\"";
 				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
@@ -389,7 +389,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_ASSET_PATHS = "\"Zodiac-Quiz/Preview Content\"";
 				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;

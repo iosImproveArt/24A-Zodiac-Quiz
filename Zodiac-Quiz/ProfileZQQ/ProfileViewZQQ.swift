@@ -1,7 +1,7 @@
 
 import SwiftUI
 
-struct ProfileViewZQQ: View {
+struct ProfileViewZodiakQuiz: View {
     @Environment(\.dismiss) var dismiss
     
     @State var userPhoto = ""
@@ -17,7 +17,7 @@ struct ProfileViewZQQ: View {
     
     let fieldsColor = Color.hex("B35C5C")
     
-    var wrfcwrcf = "3235245"
+     var wrfcwrcf = "3235245"
     var vwrgr = 245245
     func ghtrvwsrgvgvfjk() -> String {
         return "uhnevwrgvwrgvfrijmko"
@@ -33,6 +33,8 @@ struct ProfileViewZQQ: View {
     }
     var wfwrvwr = [42624624.2524524: "wcrfcwrc"]
     var jrncfm = [352: "crfc"]
+    
+    private struct FWuhjnwedjwn {}
     var body: some View {
         VStack {
             Button {
@@ -167,7 +169,7 @@ struct ProfileViewZQQ: View {
 }
 
 #Preview {
-    ContentViewZQQ(showLoading: false, selectedTab: .profile)
+    ContentViewZodiakQuiz(showLoading: false, selectedTab: .profile)
 }
 
 

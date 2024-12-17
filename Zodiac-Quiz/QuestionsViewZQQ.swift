@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct QuestionsView: View {
+struct QuestionsViewZodiakQuiz: View {
     @State var selectedQuestion: Tab4Question = Tab4Question.list.randomElement()!
     @State var showHint1 = false
     @State var showHint2 = false
@@ -117,7 +117,7 @@ struct QuestionsView: View {
 }
 
 #Preview {
-    ContentViewZQQ(showLoading: false, selectedTab: .questions)
+    ContentViewZodiakQuiz(showLoading: false, selectedTab: .questions)
 }
 
 struct Tab4Question {

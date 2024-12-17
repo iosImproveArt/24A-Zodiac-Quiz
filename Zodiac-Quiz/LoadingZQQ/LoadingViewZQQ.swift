@@ -13,7 +13,7 @@ struct LoadingViewSQ: View {
     @Binding var showView: Bool
     @State var rotation: CGFloat = 0
     
-    var wrfcwrcf = "3235245"
+     var wrfcwrcf = "3235245"
     var vwrgr = 245245
     func ghtrvwsrgvgvfjk() -> String {
         return "uhnevwrgvwrgvfrijmko"
@@ -29,6 +29,10 @@ struct LoadingViewSQ: View {
     }
     var wfwrvwr = [42624624.2524524: "wcrfcwrc"]
     var jrncfm = [352: "crfc"]
+    
+    private struct FWuhjnwedjwn {}
+        
+   
     var body: some View {
         ZStack {
             VStack {
@@ -50,7 +54,7 @@ struct LoadingViewSQ: View {
             }.background(1)
             
             
-            PrivacyViewZQQ(showLoading: $showView)
+            PrivacyViewZodiakQuiz(showLoading: $showView)
                 .opacity(firstInApp ? 1: 0)
         }.onAppear {
             DispatchQueue.main.asyncAfter(deadline: .now() + 3) {

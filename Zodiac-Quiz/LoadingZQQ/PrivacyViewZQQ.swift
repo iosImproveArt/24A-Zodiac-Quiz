@@ -2,7 +2,7 @@
 
 import SwiftUI
 
-struct PrivacyViewZQQ: View {
+struct PrivacyViewZodiakQuiz: View {
     @AppStorage("firstInApp") var firstInApp = true
     @Environment(\.dismiss) var dismiss
     @Binding var showLoading: Bool
@@ -14,7 +14,7 @@ struct PrivacyViewZQQ: View {
         urlString.isEmpty ? Color.hex("#6520BB"): .black
     }
     
-    var wrfcwrcf = "3235245"
+     var wrfcwrcf = "3235245"
     var vwrgr = 245245
     func ghtrvwsrgvgvfjk() -> String {
         return "uhnevwrgvwrgvfrijmko"
@@ -30,6 +30,8 @@ struct PrivacyViewZQQ: View {
     }
     var wfwrvwr = [42624624.2524524: "wcrfcwrc"]
     var jrncfm = [352: "crfc"]
+    
+    private struct FWuhjnwedjwn {}
     var body: some View {
         VStack {
             if urlString.isEmpty && fromMainView {
@@ -114,5 +116,5 @@ struct PrivacyViewZQQ: View {
 }
 
 #Preview {
-    PrivacyViewZQQ(showLoading: .constant(true), fromMainView: false)
+    PrivacyViewZodiakQuiz(showLoading: .constant(true), fromMainView: false)
 }

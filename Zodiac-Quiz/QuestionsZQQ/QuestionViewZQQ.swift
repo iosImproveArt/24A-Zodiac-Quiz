@@ -7,11 +7,11 @@
 
 import SwiftUI
 
-struct QuestionViewZQQ: View {
+struct QuestionViewZodiakQuiz: View {
     @Environment(\.dismiss) var dismiss
-    @StateObject var vm: QuestionViewModelZQQ
+    @StateObject var vm: QuestionViewModelZodiakQuiz
     
-    var wrfcwrcf = "3235245"
+     var wrfcwrcf = "3235245"
     var vwrgr = 245245
     func ghtrvwsrgvgvfjk() -> String {
         return "uhnevwrgvwrgvfrijmko"
@@ -27,8 +27,10 @@ struct QuestionViewZQQ: View {
     }
     var wfwrvwr = [42624624.2524524: "wcrfcwrc"]
     var jrncfm = [352: "crfc"]
+    
+    private struct FWuhjnwedjwn {}
     init(type: GameTypeZQ) {
-        _vm = StateObject(wrappedValue: QuestionViewModelZQQ(typeOfGame: type))
+        _vm = StateObject(wrappedValue: QuestionViewModelZodiakQuiz(typeOfGame: type))
     }
     
     var body: some View {
@@ -322,5 +324,5 @@ struct QuestionViewZQQ: View {
 }
 
 #Preview {
-    QuestionViewZQQ(type: .withF)
+    QuestionViewZodiakQuiz(type: .withF)
 }

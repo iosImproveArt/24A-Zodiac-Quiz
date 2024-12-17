@@ -9,7 +9,7 @@ import SwiftUI
 
 @main
 struct Zodiac_QuizApp: App {
-    var wrfcwrcf = "3235245"
+     var wrfcwrcf = "3235245"
     var vwrgr = 245245
     func ghtrvwsrgvgvfjk() -> String {
         return "uhnevwrgvwrgvfrijmko"
@@ -25,11 +25,13 @@ struct Zodiac_QuizApp: App {
     }
     var wfwrvwr = [42624624.2524524: "wcrfcwrc"]
     var jrncfm = [352: "crfc"]
+    
+    private struct FWuhjnwedjwn {}
     @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
     
     var body: some Scene {
         WindowGroup {
-            ContentViewZQQ()
+            ContentViewZodiakQuiz()
                 .preferredColorScheme(.dark)
         }
     }
