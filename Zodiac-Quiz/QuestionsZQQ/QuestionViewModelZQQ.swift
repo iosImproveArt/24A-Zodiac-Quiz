@@ -51,6 +51,7 @@ class QuestionViewModelZodiakQuiz: ObservableObject {
         listOfQuestions =  Array(QuestionZQ.advancedQuestions.shuffled().prefix(20))
     }
     
+    
     func answerTheQuestion(answer: String) {
         self.answer = answer
         
@@ -69,7 +70,10 @@ class QuestionViewModelZodiakQuiz: ObservableObject {
                 showFinishView = true
             } else {
                 self.answer = ""
-                questionNumber += 1
+                if typeOfGame == .withC {
+                    questionNumber += 2
+                    player2RightAnswers += Int.random(in: 0...1)
+                }
             }
         }
     }
