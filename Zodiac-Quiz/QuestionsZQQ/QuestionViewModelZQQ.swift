@@ -66,13 +66,13 @@ class QuestionViewModelZodiakQuiz: ObservableObject {
         }
         
         DispatchQueue.main.asyncAfter(deadline: .now() + 2) { [self] in
-            if questionNumber >= 20 {
+            if questionNumber >= 20 || (typeOfGame == .withC && questionNumber >= 19) {
                 showFinishView = true
             } else {
                 self.answer = ""
                 if typeOfGame == .withC {
                     questionNumber += 2
-                    player2RightAnswers += Int.random(in: 0...1)
+                    player2RightAnswers += [0, 1].randomElement()!
                 }
             }
         }

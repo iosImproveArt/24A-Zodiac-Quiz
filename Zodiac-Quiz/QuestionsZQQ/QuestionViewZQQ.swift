@@ -241,7 +241,7 @@ struct QuestionViewZodiakQuiz: View {
                             
                             Image("sme")
                                 .overlay {
-                                    Text("\(vm.questionNumber + (vm.heartCount - 3))/20")
+                                    Text("\(returnRightAnswers(count: vm.questionNumber + (vm.heartCount - 3)))/20")
                                         .withFont(size: 21.44, weight: .light)
                                 }
                         }.padding(.top, 80)
@@ -320,6 +320,14 @@ struct QuestionViewZodiakQuiz: View {
                     }
                 }
         }.opacity(vm.showFinishView ? 1: 0)
+    }
+    
+    func returnRightAnswers(count: Int) -> Int {
+        if count >= 0 {
+            return count
+        } else {
+            return 0
+        }
     }
 }
 
