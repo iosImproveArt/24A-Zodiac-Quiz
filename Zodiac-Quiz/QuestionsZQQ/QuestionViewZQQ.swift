@@ -12,21 +12,21 @@ struct QuestionViewZodiakQuiz: View {
     @StateObject var vm: QuestionViewModelZodiakQuiz
     
      var wrfcwrcf = "3235245"
-    var vwrgr = 245245
-    func ghtrvwsrgvgvfjk() -> String {
-        return "uhnevwrgvwrgvfrijmko"
+    var rgvergv = 245245254245
+    func rvg() -> String {
+        return "vwrgvwrgv"
     }
     func wrvgwrgvwg() {
-        print("gnwvrgwrgvmfr")
+        print("rgvwrgv")
     }
     
     
-    func cwrcfrc() -> Float {
-        print(224 / 324)
-        return 2244 * 3242
+    func cwrwrvwrcfrc() -> Float {
+        print(225224 / 322454)
+        return 224452452.4 * 32245242
     }
-    var wfwrvwr = [42624624.2524524: "wcrfcwrc"]
-    var jrncfm = [352: "crfc"]
+    var wfwrwrgwvwrvwr = [25252.2352: "w4rw4q4rf"]
+    var wrfvwr = [252: "wrcwrcw"]
     
     private struct FWuhjnwedjwn {}
     init(type: GameTypeZQ) {
